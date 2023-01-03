@@ -6,10 +6,16 @@
                         xmlns:pages="clr-namespace:HotReloadNotWorking.Pages"
                         x:TypeArguments="local:DummyVM">
     <pages:ContentPageTyped.MNavView>
-        <Label Text="Nav view goes here" />
+        <StackLayout>
+            <Label Text="Nav view goes here" />
+            <Label Text="Nav view goes here" />
+        </StackLayout>
     </pages:ContentPageTyped.MNavView>
 
     <pages:ContentPageTyped.MContent>
-        <Label Text="Content goes here" />
+        <StackLayout>
+            <Label Text="Content goes here" />
+            <Label Text="Content goes here" />
+        </StackLayout>
     </pages:ContentPageTyped.MContent>
 </pages:ContentPageTyped>

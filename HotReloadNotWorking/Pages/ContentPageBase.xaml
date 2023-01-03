@@ -5,7 +5,7 @@
              x:Name="base"
              Title="ContentPageBase"
              BackgroundColor="#EEEEEE">
-    <Grid RowDefinitions="50,*">
+    <Grid x:Name="ContentPageBaseContentGrid" RowDefinitions="50,*">
 
         <ContentView x:Name="NavbarView" Content="{Binding Source={x:Reference base}, Path=MNavView}" />
 
