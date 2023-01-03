@@ -1,0 +1,11 @@
+[18:30:30]  (HotReloadNotWorking) .NET Project references .NET MAUI.
+[18:30:30]  (HotReloadNotWorking) Starting Hot Reload session...
+[18:30:37]  XAML Hot Reload initializing...
+[18:30:39]  (HotReloadNotWorking) Hot Reload: Initialized Agent.
+[18:30:46]  XAML Hot Reload Connected and Ready.
+[18:31:06]  Hot Reload changes cannot be applied due to these errors in the XAML:
+  C:\Users\dmartinho\source\repos\HotReloadNotWorking\HotReloadNotWorking\MainPage.xaml(8,4): The member "MNavView" is not recognized or is not accessible.
+  C:\Users\dmartinho\source\repos\HotReloadNotWorking\HotReloadNotWorking\MainPage.xaml(12,4): The member "MContent" is not recognized or is not accessible.
+[18:31:14]  Hot Reload changes cannot be applied due to these errors in the XAML:
+  C:\Users\dmartinho\source\repos\HotReloadNotWorking\HotReloadNotWorking\MainPage.xaml(8,4): The member "MNavView" is not recognized or is not accessible.
+  C:\Users\dmartinho\source\repos\HotReloadNotWorking\HotReloadNotWorking\MainPage.xaml(12,4): The member "MContent" is not recognized or is not accessible.
