@@ -54,12 +54,12 @@ public partial class ContentPageBase : ContentPage, IVisualTreeElement
         var elements = new List<IVisualTreeElement>
         {
             //this.Content
-            ContentPageBaseContentGrid,
+            //ContentPageBaseContentGrid,
             MNavView,
             MContent
         };
 
-
+        elements.AddRange((this as IElementController).LogicalChildren);
 
         //elements.AddRange(ContentPageBaseContentGrid.Children.Cast<IVisualTreeElement>());
         //elements.AddRange(ContentPageBaseContentGrid.Children.Select(c => (c as ContentView).Content).Cast<IVisualTreeElement>());
