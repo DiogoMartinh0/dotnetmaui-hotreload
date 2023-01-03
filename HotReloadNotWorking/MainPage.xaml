@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:ContentPageTyped x:Class="HotReloadNotWorking.MainPage"
+                        xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                        xmlns:local="clr-namespace:HotReloadNotWorking"
+                        xmlns:pages="clr-namespace:HotReloadNotWorking.Pages"
+                        x:TypeArguments="local:DummyVM">
+    <pages:ContentPageTyped.MNavView>
+        <Label Text="Nav view goes here" />
+    </pages:ContentPageTyped.MNavView>
+
+    <pages:ContentPageTyped.MContent>
+        <Label Text="Content goes here" />
+    </pages:ContentPageTyped.MContent>
+</pages:ContentPageTyped>
