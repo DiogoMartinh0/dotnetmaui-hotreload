@@ -49,21 +49,21 @@ public partial class ContentPageBase : ContentPage, IVisualTreeElement
         NavigationPage.SetHasNavigationBar(this, false);
     }
 
-    IReadOnlyList<IVisualTreeElement> IVisualTreeElement.GetVisualChildren()
-    {
-        var elements = new List<IVisualTreeElement>
-        {
-            //this.Content
-            //ContentPageBaseContentGrid,
-            MNavView,
-            MContent
-        };
+    //IReadOnlyList<IVisualTreeElement> IVisualTreeElement.GetVisualChildren()
+    //{
+    //    var elements = new List<IVisualTreeElement>
+    //    {
+    //        //this.Content
+    //        //ContentPageBaseContentGrid,
+    //        MNavView,
+    //        MContent
+    //    };
 
-        elements.AddRange((this as IElementController).LogicalChildren);
+    //    elements.AddRange((this as IElementController).LogicalChildren);
 
-        //elements.AddRange(ContentPageBaseContentGrid.Children.Cast<IVisualTreeElement>());
-        //elements.AddRange(ContentPageBaseContentGrid.Children.Select(c => (c as ContentView).Content).Cast<IVisualTreeElement>());
+    //    //elements.AddRange(ContentPageBaseContentGrid.Children.Cast<IVisualTreeElement>());
+    //    //elements.AddRange(ContentPageBaseContentGrid.Children.Select(c => (c as ContentView).Content).Cast<IVisualTreeElement>());
 
-        return elements.ToList().AsReadOnly();
-    }
+    //    return elements.ToList().AsReadOnly();
+    //}
 }
